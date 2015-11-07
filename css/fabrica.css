@@ -1,0 +1,403 @@
+/* 
+    Created on : 24/09/2015, 19:52:56
+    Author     : Gabriel Lopes
+*/
+
+/*----------------------1----------------------*/
+
+.form-signin input[type=Login],
+.form-signin input[type=Senha],
+.form-signin input[type=text],
+.form-signin button {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    z-index: 1;
+    position: relative;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#index1{
+    margin-top: 100px;
+    padding-top: 40px;
+}
+
+#index1 img{
+    margin-left: 40px;
+}
+
+#index3{
+    height: auto;
+    width: 263px;
+    margin-top: -20px;
+    background-color: rgb(50, 118, 177);
+    color: white;
+    display: none;
+}
+
+#index3 img{
+    margin-right: 50px;
+}
+
+.input-group-addon{
+    background-color: rgb(50, 118, 177);
+    border-color: rgb(40, 94, 142);
+    color: rgb(255, 255, 255);
+}
+
+/*----------------------1----------------------*/
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+    font-size: 14px;
+}
+
+nav{
+    margin-top: 0px;
+    margin-left: -11px;
+    width: 1024px;
+    height: 50px;
+    border: 1px solid #ccc;
+    background: #4e7cad;
+}
+
+nav p{
+    padding: 10px;
+    margin-left: 700px;
+    color: white;
+    font-size: 13px;
+}
+
+footer{
+    margin-left: -10px;
+    width: 1025px;
+    height: 35px;
+    background: #4e7cad;
+}
+
+#conteudo1{
+    margin: 0px;
+    margin-top: -2px;
+    margin-left: 100px;
+    width: 1004px;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    background: #eee;
+}
+
+#menu1{
+    margin-top: -20px;
+    margin: -13px;
+    margin-left: 40px;
+}
+
+#menu1 ul{
+    position: absolute;
+    margin: 0;
+    margin-top: 15px;
+    height: 20px;
+    list-style:none;    
+    background: #4e7cad;//#335CAD;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#menu1 li{
+    display: inline-block;
+    padding: 0px 0px;
+    position: relative;
+    padding: 10px;
+}
+
+#menu1 li:hover > ul{
+    display: block;
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    height: auto;//59px;
+    width: 100px;
+    margin-left: -20px;
+    text-align: left;
+}
+
+#menu1 ul ul{
+    position: absolute;
+    display: none;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+#menu1 ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+#menu1 ul ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+#menu1 ul ul li:hover a[href='#31']{
+    background: black;
+    margin: 0px;
+    margin-left: -20px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 35px;
+    font-size: 15px;
+}
+
+#menu1 ul ul li:hover a[href='#32']{
+    background: black;
+    margin: 0px;
+    margin-left: -20px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 32px;
+    font-size: 15px;   
+}
+
+#menu1 ul ul li:hover a[href='#33']{
+    background: black;
+    margin: 0px;
+    margin-left: -20px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 34px;
+    font-size: 15px;   
+}
+
+#menu1 span{
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+#t1 thead tr th{
+    height: auto;
+    width: 535px;
+    background: #4e7cad;
+    font-size: 12px;
+}
+
+#t1 tbody td{
+    text-align: center;
+    font-size: 12px;
+}
+
+#t2 thead tr th{
+    height: auto;
+    width: 535px;
+    background: #4e7cad;  
+}
+
+#t2 tbody td{
+    text-align: center;
+}
+
+#conteudo2 thead tr th{
+    height: auto;
+    width: 535px;
+    background: #4e7cad;  
+}
+
+#conteudo2 tbody td{
+    text-align: center;
+}
+
+#alter{
+    display: none;
+    margin-top: -1px;
+    margin-left: -10px;    
+    background: #4e7cad;
+    width: 1024px;
+}
+
+#alter input{
+    border: none;
+    outline: none;
+    width: 200px;
+    height: 30px;
+    margin: -2em;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    margin-left: 30px;
+    text-align: center;
+}
+
+#alter .id{
+    display: none;
+}
+
+#alter select{
+    border: none;
+    outline: none;
+    width: 150px;
+    height: 30px;
+    margin: -2em;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    margin-left: 75px;
+    text-align: center;
+}
+
+#alter .submeter{
+    margin-top: -10px;
+    margin-left: 75px;
+    width: 456px;
+}
+
+#alter .botao{
+    margin-top: -6px;
+    margin-left: 30px;
+    width: 100px;
+    //position: absolute;
+}
+
+#altermsg span{
+    margin-left: 300px;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+#cadastro{
+    display: none;
+    margin-top: -1px;
+    margin-left: -10px;    
+    background: #4e7cad;
+    width: 1024px;
+}
+
+#cadastro input{
+    border: none;
+    outline: none;
+    width: 183px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    margin-left: 75px;
+    text-align: center;
+}
+
+#cadastro .cadip{
+    margin-left: 3px;
+}
+
+#cadastro .cadporta{
+    margin-left: 3px;
+}
+
+#cadastro .cadsubmeter{
+    margin-top: -10px;
+    margin-left: 75px;
+    width: 456px;
+}
+
+#cadastro .cadbotao{
+    margin-top: -7px;
+    margin-left: 3px;
+    width: 100px;
+}
+
+#cadmsg span{
+    margin-left: 300px;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+#alter{
+    display: none;
+    margin-top: -1px;
+    margin-left: -10px;    
+    background: #4e7cad;
+    width: 1024px;
+}
+
+#alter input{
+    border: none;
+    outline: none;
+    width: 200px;
+    height: 30px;
+    margin: -2em;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    margin-left: 30px;
+    text-align: center;
+}
+
+#exclui{
+    display: none;
+    margin-top: -1px;
+    margin-left: -10px;    
+    background: #4e7cad;
+    width: 1024px;
+}
+
+#exclui .excid{
+    display: none;
+}
+
+#exclui select{
+    border: none;
+    outline: none;
+    width: 150px;
+    height: 30px;
+    margin: -2em;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    margin-left: 75px;
+    text-align: center;
+}
+
+#exclui input{
+    border: none;
+    outline: none;
+    width: 183px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    margin-left: 75px;
+    text-align: center;
+}
+
+#exclui .excsubmeter{
+    margin-top: -10px;
+    margin-left: 30px;
+    width: 299px;
+}
+
+#exclui .excbotao{
+    margin-top: -7px;
+    margin-left: 3px;
+    width: 100px;
+}
+
+#excmsg span{
+    margin-left: 300px;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+}
+/*--------------------------*/
+.dashboard span ol{
+    margin-bottom: -12px;
+    height: auto;
+    width: 185px;
+    //background: #4e7cad;
+    font-size: 10px;
+    color: black;
+    display: inline-block;
+    //float:left
+}
